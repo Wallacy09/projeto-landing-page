@@ -1,0 +1,351 @@
+/* Menu Hamburguer */
+@media screen and (max-width: 1024px){ 
+    header {
+        z-index: 10000;
+    }
+
+    .login-button {
+        display: flex;
+        margin-right: 2%;
+    }
+
+    .banner-principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 60vh;
+        
+    }
+
+    .banner-principal h1 {
+        margin-left: -20%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 20%;
+        position: absolute;
+        color: white;
+        z-index: 1;
+    }
+
+    .banner-principal p {
+        margin-left: -18%;
+        margin-top: 30%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        position: absolute ;
+        color: white;
+        font-weight: bold;
+        z-index: 1;
+    }
+
+    .banner-principal .img-banner-principal {
+    display: flex;
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    margin-right: 12%;
+
+    }
+
+    .btn-conta {
+        display: none;
+    }
+
+    .segundo-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        
+    }
+
+    .segundo-banner .texto-2 h1{
+        display: none;
+    }
+
+
+    .segundo-banner div img.img-segundo-banner {
+        width: 100px;
+        height: 100px;
+        flex: 0 0 calc(33.33% - 10px);
+        max-width: 300px; 
+        margin: 5px;
+        display: none;
+    } 
+
+    .segundo-banner h1.titulos {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-left: 68%;
+    }
+
+    .segundo-banner div p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-left: 30%;
+    }
+
+    .terceiro-banner {
+        height: 80vh;
+        display: flex;
+    }
+
+    .terceiro-banner .texto-3 {
+        position: flex;
+        left: 70%;
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 14%;
+    }
+
+    .terceiro-banner div img.img-terceiro-banner {
+        width: 400px;
+        height: 400px;
+        margin-top: 50%;
+    }
+
+    .terceiro-banner p {
+        font-size: 14px;
+        margin-left: 200px;
+        margin-top: 40%;
+    }
+
+    .quarto-banner {
+        display: flex;
+        height: 64vh;
+    }
+
+    .quarto-banner h1 {
+        font-size: 40px;
+        margin-top: 5%;
+        margin-left: 50%;
+    }
+
+    .btn-concluir {
+        margin-left: 20%;
+        margin-top: 50px;
+    }
+
+    .quarto-banner #ouvidoria {
+        margin-left: 50%;
+        margin-top: -40%;
+        font-size: 18px;
+        font-weight: lighter;
+    }
+
+    .quarto-banner #ouvidoria-2 {
+        margin-left: 50%;
+        margin-top: 6%;
+        font-size: 18px;
+}
+
+    .rodape p {
+        width: 30%;
+        bottom: 108%;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .nav-link {
+        font-size: 24px;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+
+    .banner-principal .img-banner-principal .banner {
+        margin-left: 40px;
+        display: flex;
+    }
+
+    .banner-principal h1 {
+        font-size: 26px;
+        margin-top: 190px;
+        display: flex;
+    }
+
+    .banner-principal p {
+        font-size: 20px;
+        margin-top: 250px;
+        display: flex;
+        font-weight: lighter;
+    }
+
+    .segundo-banner #titulo-cartoes {
+        margin-left: -14%;
+    }
+
+    .segundo-banner h1.titulos {
+        margin-left: -14%;
+    }
+
+    .segundo-banner div p {
+        margin-left: -14%;
+    }
+
+    .terceiro-banner div img.img-terceiro-banner {
+        height: 300px;
+        width: 300px;
+        margin-top: 80%;
+    }
+
+    .terceiro-banner .texto-3 {
+        margin-left: -44%;
+        margin-top: 20%;
+    }
+
+    .terceiro-banner p {
+        margin-left: 80px;
+    }
+
+    .quarto-banner h1 {
+        margin-left: 60%;
+    }
+
+    .quarto-banner form p{
+        font-size: 26px;
+    }
+
+    .btn-concluir {
+        margin-left: 10%;
+    }
+
+    .quarto-banner #ouvidoria{
+        margin-top: -54%;
+    }
+
+    .rodape p {
+        margin-left: 10px;
+        bottom: 90%;
+        font-size: 16px;
+    }
+
+    .rodape .social{
+        margin-top: -14%;
+        margin-left: 74%;
+        padding: 10px;
+        display: block;
+        top: 110%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .banner-principal .img-banner-principal .banner {
+        margin-left: 26px;
+        margin-top: -8%;
+        position: absolute;
+    }
+
+    .banner-principal h1 {
+        margin-left: -26%;
+        margin-top: 200px;
+        font-size: 24px;
+    }
+
+    .banner-principal p {
+        margin-left: -22%;
+        font-size: 16px;
+        margin-top: 60%;
+        font-weight: bold;
+    }
+
+    .segundo-banner #titulo-cartoes {
+        margin-left: -54%;
+    }
+
+    .segundo-banner h1.titulos {
+        margin-left: -54%;
+    }
+
+    .segundo-banner div p {
+        margin-left: -30%;
+    }
+
+    .terceiro-banner div img.img-terceiro-banner {
+        display: none;
+    }
+
+    .terceiro-banner .texto-3 {
+        display: none;
+    }
+
+    .terceiro-banner p {
+        margin-top: 14%;
+        font-size: 14px;
+    }
+
+    .quarto-banner h1{
+        display: none;
+    }
+
+    .quarto-banner form {
+        position: absolute;
+    }
+
+    .btn-concluir {
+        padding: 10px;
+        margin-left: 14px;
+        font-size: 14px;
+    }
+
+    .quarto-banner #ouvidoria {
+        font-size: 14px;
+        margin-top: 20%;
+        
+    }
+
+    .quarto-banner #ouvidoria-2 {
+        font-size: 14px;
+    }
+
+    .rodape p {
+        font-size: 10px;
+    }
+
+    .rodape .social {
+        margin-left: 20%;
+        margin-top: -22%;
+    }
+}

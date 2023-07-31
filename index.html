@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" />
+    <script src="script.js" defer></script>
+
+    <title>F4Bank - tradição e inovação</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <div class="nav-list">
+            <a class="logo" href="#"
+            ><img src="img/logo.png" alt="logo do F4Bank" width="60" height="60"/></a>
+              <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Página Inicial</a></li>
+
+                <li class="nav-item"><a href="#pravc" class="nav-link">Para você</a></li>
+      
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre o F4Bank</a></li>
+              
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+              </ul>
+          </div>
+          <div class="login-button">
+              <a href="#contato"><button type="button">Abra sua conta</button></a>
+          </div>
+
+          <div class="mobile-menu-icon">
+              <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt="Menu"></button>
+          </div>
+      </nav>
+      <div class="mobile-menu">
+          <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Página Inicial</a></li>
+
+            <li class="nav-item"><a href="#pravc" class="nav-link">Para você</a></li>
+  
+            <li class="nav-item"><a href="#sobre" class="nav-link">Sobre o F4Bank</a></li>
+
+            <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+          </ul>
+
+          <div class="login-button">
+              <button type="button" >Abra sua conta</button>
+          </div>
+      </div>
+  </header>
+    <main>
+      <section class="banner-principal">
+        
+        <aside class="texto">
+          <h1>Planeje seu futuro aqui.</h1>
+          <p>
+            Escolha o futuro. Comece a controlar sua vida <br />financeira com o
+            F4Bank.
+          </p>
+
+          <div class="btn-conta"><a href="#contato"><button class="bnt-conta" type="button">Abra sua conta</button></a></div>
+
+        </aside>
+
+        <article class="img-banner-principal">
+          <img  class="banner" src="img/pagina inicial do banco.png" alt="Banner Principal"/>
+          <div id="pravc"></div>
+        </article>
+
+      </section>
+      <section  class="segundo-banner">
+        <div  class="texto-2"><h1>Para você</h1></div>
+        <div>
+          <img class="img-segundo-banner" src="img/Cartão F4Bank.png" alt="Cartão F4Bank">
+          <h1 id="titulo-cartoes" class="titulos">Cartões</h1>
+          <p>O cartão de crédito premium para você viver<br>todas as suas escolhas.</p>
+        </div>
+
+        <div>
+          <img class="img-segundo-banner" src="img/emprestimo.png" alt="Emprestimo">
+          <h1 class="titulos">Empréstimos</h1>
+          <p>Transparentes, seguros e do seu jeito: da simulação<br>até a última parcela.</p>
+        </div>
+
+        <div>
+          <img class="img-segundo-banner" src="img/Seguro.png" alt="Seguro de Vida">
+          <h1 class="titulos">Seguros</h1>
+          <p>Seguro para proteger você e quem você mais ama:<br>agora e no futuro.</p>
+        </div>
+        <div id="sobre"></div>
+      </section>
+
+      <section class="terceiro-banner">
+      <div>
+        <img class="img-terceiro-banner" src="img/Terceiro Banner.png" alt="Imagem do Banco">
+      </div> 
+
+      <div>
+        <h1 class="texto-3">Sobre o F4Bank</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, at aliquid obcaecati ut enim cumque ullam esse voluptatem cupiditate suscipit, itaque vitae maxime quisquam accusantium dolores dolor error cum ducimus.<br><br><br>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate cupiditate id tempora sapiente. Dolor explicabo vel laboriosam inventore officia quos a quod architecto iure doloremque, aliquid consequatur quo hic ad.<br><br><br>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus praesentium mollitia sit qui, obcaecati harum, dolor ipsam facilis officiis totam pariatur consequatur et veritatis veniam quam a dignissimos nobis quod.<br>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis qui natus obcaecati eos, mollitia nihil voluptatum libero aspernatur reiciendis, optio perferendis ea rerum est ex quae temporibus minima maiores quo.
+        </p>
+      </div>
+      
+      </section>
+    <div id="contato"></div>
+    <section class="quarto-banner">
+      
+
+      <div><h1>Contato</h1></div>
+      
+      <form>
+        <p>Tire sua dúvida aqui !</p>
+        <div class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input id="nome" type="text" name="nome" id="nome" required>
+            </div>
+
+        </div> 
+
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input id="email" type="email" name="email" id="email" required>
+        </div>
+
+        <div class="campo">
+            <br>
+            <label for="mensagem"><strong>Mensagem </strong></label>
+            <textarea id="mensagem" rows="6" style="width: 74%" id="mensagem" name="mensagem"></textarea>
+        </div>
+
+        <button class="btn-concluir" onclick="contato()" type="submit" onsubmit="">Concluído</button>            
+
+    </form>
+    <p id="ouvidoria"><strong>Fale com a gente</strong>
+      <br><br><br>
+      Capitais e Regiões metropolitanas<br>
+      0000 0000
+      <br><br>
+      Demais localidades<br>
+      0800 000 0000
+      <br><br>
+      meajuda@f4bank.com.br
+      <br><br>
+      Canal de atendimento em libras<br>
+      Atendimento 24h</p>
+
+      <p id="ouvidoria-2">
+        <strong>Ouvidoria</strong>
+        <br><br><br>
+        0800 000 0000
+        <br>
+        ouvidoria@f4bank.com.br
+        <br>
+        Atendimento das 9h às 18h (dias úteis)
+      </p>
+
+      </section>
+    </main> 
+
+    <footer>
+      <div class="rodape">
+
+      <a class="logo-footer" href="#"><img src="img/logo.png" alt="logo do F4Bank" width="100" height="100"/></a>
+
+        <p>
+          © 2023 F4Bank S.A - Instituição de Pagamento. 00.000.000/0000-00<br>
+          Rua Rio de Janeiro, 350 - Rio de Janeiro, Rj - 00000-000
+        </p>
+
+        <div class="social">
+          <a target="_blank" href="https://www.facebook.com"><img src="img/icone facebook.png" alt="facebook" width="40" height="40"/></a>
+          
+          <a target="_blank" href="https://twitter.com"><img src="img/icone twitter.png" alt="facebook" width="40" height="40"/></a>
+
+          <a target="_blank" href=""><img src="img/icone instagram.png" alt="facebook" width="40" height="40"/></a>
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+</html> 
